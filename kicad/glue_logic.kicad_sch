@@ -1,0 +1,29 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 50d9b39f-8e66-406a-ba8b-d397366735c5)
+
+  (paper "USLetter")
+
+  (title_block
+    (title "Sentinel 65X")
+    (rev "0")
+    (company "Stuidio 8502")
+  )
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "{Control Signals}" (shape bidirectional) (at 109.22 53.34 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 714100d9-55b9-4226-86dc-fc4b736f9698)
+  )
+  (hierarchical_label "{Data Bus}" (shape input) (at 67.31 57.15 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 72ca916d-8d20-467c-a6dc-cf5c175b693e)
+  )
+  (hierarchical_label "{Address Bus}" (shape input) (at 67.31 48.26 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid fd4056d2-e1e0-42dd-a10e-9c054ec182c0)
+  )
+)

@@ -1,0 +1,42 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 492c8978-7576-42ab-80bf-7c4dfe0b555d)
+
+  (paper "USLetter")
+
+  (title_block
+    (title "Sentinel 65X")
+    (rev "0")
+    (company "Stuidio 8502")
+  )
+
+  (lib_symbols
+  )
+
+  (bus_alias "SPI Signals" (members "~{SS}" "SCK" "MOSI" "MISO"))
+
+  (hierarchical_label "{Address Bus}" (shape input) (at 22.86 96.52 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 1ab3a83d-eb0b-448d-8a58-47b36e5e012a)
+  )
+  (hierarchical_label "{Digital Audio}" (shape output) (at 22.86 119.38 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 22bd736e-463b-4f98-9b8f-b6d378bd4283)
+  )
+  (hierarchical_label "{Control Signals}" (shape bidirectional) (at 22.86 109.22 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 57196d57-8155-494e-8512-262feddf8c02)
+  )
+  (hierarchical_label "{Digital Video}" (shape output) (at 22.86 114.3 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 65dbefc8-7837-40ee-980c-dd5c897a9762)
+  )
+  (hierarchical_label "{SPI Signals}" (shape bidirectional) (at 22.86 125.73 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid f82945dc-2ba7-4a03-83ad-c9e1c4aadd94)
+  )
+  (hierarchical_label "{Data Bus}" (shape bidirectional) (at 22.86 105.41 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid fe3aa18e-64fb-433c-abcb-76feb191655b)
+  )
+)
