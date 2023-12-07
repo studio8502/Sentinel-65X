@@ -1,0 +1,21 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 31fad29a-9fa9-4768-983f-af52103a64d3)
+
+  (paper "USLetter")
+
+  (title_block
+    (title "Sentinel 65X")
+    (rev "0")
+    (company "Stuidio 8502")
+  )
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "{Digital Video}" (shape input) (at 181.61 74.93 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 734a46fe-06e5-4bfb-82dc-4f1a1c4a53ac)
+  )
+)

@@ -346,6 +346,22 @@
     [
       "4ec96ded-63bc-494d-b8fc-7a0838b454b4",
       "W65C22S VIA"
+    ],
+    [
+      "6229bc19-cacc-41fa-9cbb-bc83ddf96651",
+      "Video Output"
+    ],
+    [
+      "909b661b-3b67-4c44-bf18-23d770ab4a96",
+      "Audio Output"
+    ],
+    [
+      "c485b2f4-4f20-4a35-b9bb-c45b3ab4fa9e",
+      "SD Slot"
+    ],
+    [
+      "365c70ff-251f-49d1-88bb-12c58760c06b",
+      "IO Connectors"
     ]
   ],
   "text_variables": {}

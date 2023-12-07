@@ -377,8 +377,8 @@
     )
   )
 
-  (bus_alias "Digital Audio" (members ))
-  (bus_alias "Digital Video" (members ))
+  (bus_alias "Digital Audio" (members "LRCK" "BCLK" "ADATA" "SYSCLK"))
+  (bus_alias "Digital Video" (members "R[0..3]" "G[0..3]" "B[0..3]" "HSYNC" "VSYNC"))
   (bus_alias "GPIO" (members "PA[0..7]" "PB[0..7]" "CA[1..2]" "CB[1..2]"))
 
   (bus_entry (at 162.56 146.05) (size -2.54 2.54)
