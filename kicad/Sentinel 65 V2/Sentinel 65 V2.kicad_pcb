@@ -6,7 +6,7 @@
 
   (paper "A4")
   (layers
-    (0 "F.Cu" signal "F.Cu.BRK")
+    (0 "F.Cu" signal "F.Cu.Breakout")
     (1 "In1.Cu" power "In1.Cu.GND")
     (2 "In2.Cu" signal "In2.Cu.Vertical")
     (3 "In3.Cu" power "In3.Cu.VCC")
@@ -4740,22 +4740,6 @@
       (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp b1989f42-0581-4d1e-b197-71d3c0ef6bbf))
   )
 
-  (gr_arc locked (start 182.77 142.13) (mid 182.398026 143.028026) (end 181.5 143.4)
-    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 188da9d2-4355-4dfd-9fd0-daa951e80ff7))
-  (gr_line locked (start 182.77 54.61) (end 182.77 142.13)
-    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 52934f38-2a71-4255-83d8-7a3dbe48d7f6))
-  (gr_line locked (start 92.71 142.13) (end 92.71 54.61)
-    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 699fbb49-9280-4761-ae46-442ffeb4c34d))
-  (gr_arc locked (start 93.98 143.4) (mid 93.081974 143.028026) (end 92.71 142.13)
-    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 87d2be36-bf8f-4536-b946-4219a61fe232))
-  (gr_arc locked (start 92.71 54.61) (mid 93.081974 53.711974) (end 93.98 53.34)
-    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp a565bef4-d1e6-4d0d-9c3b-a612c179d4f1))
-  (gr_arc locked (start 181.5 53.34) (mid 182.398026 53.711974) (end 182.77 54.61)
-    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp b4641c0b-0a91-4086-8e6b-e84c1e9e82ee))
-  (gr_line locked (start 93.98 53.34) (end 181.5 53.34)
-    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp d8267c1d-a3b5-4388-88e0-81bff5d07c8e))
-  (gr_line locked (start 181.5 143.4) (end 93.98 143.4)
-    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp e5a695bb-c7f7-430a-8e98-ed25dfd00b99))
   (gr_text "Copyright © 2023 Kyle J Cardoza, Studio 8502. All rights reserved." (at 98.365178 193.308829) (layer "F.SilkS") (tstamp 6e980d3d-bcda-4d47-8ec6-8ffd1b642960)
     (effects (font (face "Baskerville") (size 1 1) (thickness 0.15)) (justify left bottom))
     (render_cache "Copyright © 2023 Kyle J Cardoza, Studio 8502. All rights reserved." 0
