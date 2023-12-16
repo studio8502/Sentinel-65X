@@ -1,0 +1,59 @@
+Name Sentinel 65X Glue Logic;
+Partno ATF22LV10C;
+Date 14/December/2023;
+Revision Release 0.1;
+Designer Kyle J Cardoza;
+Company Studio 8502;
+Assembly None;
+Location Canada;
+Device 22LV10C;
+
+/****************/
+/** INPUT pins **/
+/****************/
+pin 1 = PHI2
+pin 2 = CDONE
+pin 3 = !WE
+pin 4 = !FPGA_SS
+pin 5 = !LOROM
+pin 6 = !HIROM
+pin 7 = !IRQ2_IN
+pin 8 = !IRQ3_IN
+pin 9 = A19_IN
+pin 10 = A20_IN
+pin 11 = A21_IN
+pin 13 = !FLASH_EN
+
+/*****************/
+/** OUTPUT pins **/
+/*****************/
+pin 14 = !RD
+pin 15 = !WR
+pin 16 = !FLASH_SS
+pin 17 = !SD_SS
+pin 18 = !ROM0
+pin 19 = !ROM1
+pin 22 = IRQ2_OUT
+pin 23 = IRQ3_OUT
+
+/*****************************/
+/**     Logic Equations     **/
+/*****************************/
+RD = PHI2 & !WE
+
+WR = PHI2 & WE
+
+SD_SS = CDONE & FPGA_SS
+
+FLASH_SS = !CDONE & FPGA_SS
+
+IRQ2_OUT = IRQ2_IN
+
+IRQ3_OUT = IRQ3_IN
+
+ROM0 = LOROM $ HIROM
+
+CONDITION {
+	IF HIROM & !A19_IN & !A20_IN & !A21_IN out ROM0;
+	IF HIROM & [A19_IN,A20_IN,A21_IN]:# out ROM1;
+}
