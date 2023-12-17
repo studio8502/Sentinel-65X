@@ -31,6 +31,12 @@ which have a similar architecture should not prove difficult.
   RAM, and I/O expansions
 - Amiga-inspired "clock port" which also serves as a debug port
 
+## Hardware
+
+The revision 0 schematic is nearly finished, approaching the production
+of the first working prototypes. The goal is a limited release in 2024,
+followed by a full release in 2025.
+
 ## Software
 
 At the present time, software for this design is nonexistent. The
