@@ -1,0 +1,110 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "2f8fc0dd-5528-4be1-b18a-875b52089964")
+	(paper "A4")
+	(lib_symbols)
+	(bus_alias "AddressBus"
+		(members "A[0..23]")
+	)
+	(bus_alias "ControlBus"
+		(members "R/~{W}" "~{CS}[0..9]" "~{RES}" "~{IRQ}" "~{NMI}" "~{VIRQ}" "BE"
+			"BA" "~{RD}" "~{WR}"
+		)
+	)
+	(bus_alias "DataBus"
+		(members "D[0..7]")
+	)
+	(bus_alias "GPIO"
+		(members "P4[0..7]" "P5[0..7]" "P6[0..7]" "P7[0..7]")
+	)
+	(bus
+		(pts
+			(xy 254 41.91) (xy 261.62 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04dfd170-d91f-4248-ada5-a8a9709546f4")
+	)
+	(bus
+		(pts
+			(xy 254 45.72) (xy 261.62 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39642a0c-18cd-4901-970c-ca9b8ce42425")
+	)
+	(bus
+		(pts
+			(xy 254 38.1) (xy 261.62 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9425d6c-de3c-453d-9458-0f4f98f09eb2")
+	)
+	(bus
+		(pts
+			(xy 254 49.53) (xy 261.62 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef2f5791-7f70-4ef8-b857-b2d95f5ad086")
+	)
+	(hierarchical_label "{ControlBus}"
+		(shape bidirectional)
+		(at 261.62 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20201dd2-c24a-46eb-8fa1-5353e3da6f17")
+	)
+	(hierarchical_label "{GPIO}"
+		(shape bidirectional)
+		(at 261.62 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37f18878-51c9-4389-ab34-00681ae2ee83")
+	)
+	(hierarchical_label "{DataBus}"
+		(shape bidirectional)
+		(at 261.62 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8fe801f2-8771-4c65-8c2b-20785a52816f")
+	)
+	(hierarchical_label "{AddressBus}"
+		(shape bidirectional)
+		(at 261.62 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0a186c1-c09a-455a-8f51-5146a13fcf34")
+	)
+)

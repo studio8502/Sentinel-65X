@@ -1,0 +1,74 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "fd9dff48-b5a3-4708-9fd5-7e16af07c116")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 248.92 57.15) (xy 256.54 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08cdb98d-07a9-426f-9c95-f7246281d578")
+	)
+	(bus
+		(pts
+			(xy 248.92 49.53) (xy 256.54 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76b6e04e-5b2e-4cd9-ac57-1edc48d8dc6a")
+	)
+	(bus
+		(pts
+			(xy 248.92 53.34) (xy 256.54 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a079fb86-5781-4bd8-97a4-074db54326f4")
+	)
+	(hierarchical_label "{DataBus}"
+		(shape bidirectional)
+		(at 256.54 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "16f92f19-1e30-4ed1-93f3-7571ae156635")
+	)
+	(hierarchical_label "{AddressBus}"
+		(shape bidirectional)
+		(at 256.54 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a03b4d61-b720-4302-a02e-93cd0d787e98")
+	)
+	(hierarchical_label "{ControlBus}"
+		(shape bidirectional)
+		(at 256.54 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc9b0808-a31b-4b29-8166-63706fddf8e0")
+	)
+)
