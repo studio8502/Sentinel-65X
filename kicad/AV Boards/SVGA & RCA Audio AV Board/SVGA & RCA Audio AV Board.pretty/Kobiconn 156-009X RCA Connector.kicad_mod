@@ -1,0 +1,120 @@
+(footprint "Kobiconn 156-009X RCA Connector"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.91654 5.885977 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fb48d4b5-44c8-488d-b772-5d983dd7c572")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Kobiconn 156-009X RCA Connector"
+		(at 0 -9.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bae64c51-4763-49ad-9bce-6d19757ece02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -10.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "522897c9-ebcf-4d74-9743-31c369be1cc6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -10.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e472799e-980b-4437-a3e4-5bde8ee6b737")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -10.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "493bb651-c5e5-4356-9b95-eb4e03de20de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -13.5 -4.75)
+		(end -4 4.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "30b20d32-d751-4b1d-98c1-540eedaa0d44")
+	)
+	(fp_rect
+		(start -4 -5)
+		(end 6 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "9d54062e-3c4d-4654-983f-42b16b77ffa5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -7.66 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "98a83281-087c-4f4e-af48-7fd5b4698046")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 1.65 3.8)
+		(drill oval 0.65 2.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "970f04ff-dcac-42a1-bf22-1fea69abe7a4")
+	)
+	(pad "2" thru_hole oval
+		(at 4.5 0)
+		(size 3.5 1.5)
+		(drill oval 2.5 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "018bf9b0-d16f-490c-b4a1-c80acfae123c")
+	)
+)

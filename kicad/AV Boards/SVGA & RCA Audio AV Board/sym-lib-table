@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SVGA & RCA Audio AV Board")(type "KiCad")(uri "${KIPRJMOD}/SVGA & RCA Audio AV Board.kicad_sym")(options "")(descr ""))
+)
