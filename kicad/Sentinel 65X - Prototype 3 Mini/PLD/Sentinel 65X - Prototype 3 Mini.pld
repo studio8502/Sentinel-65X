@@ -1,0 +1,26 @@
+GAL22V10
+DECODER3
+
+A23 A22 A21 A20 A19 /CS4 /CS5 /CS7  NC  RW   PHI2 GND
+NC  NC  NC  NC  NC  NC   NC   /WR   /RD /RAM /ROM VCC
+
+RD = RW * PHI2
+
+WR = /RW * PHI2
+
+RAM = /A23 * /A22 * /A21 * /A20 * /A19 * CS5
+ROM = CS4 + A23 * A22 * /A21 * /A20 * /A19 * CS7
+
+DESCRIPTION
+
+Glue logic PLD for Sentinel 65X, protoype 3.
+
+This PLD serves three functions:
+
+1. Generate /RD and /WR signals from RW and PHI2
+2. Generate /ROM from the top address bits, /CS4, and /CS7
+3. Generate /RAM from the top address bits and /CS5
+
+The top address bits are used to "split" the addres space
+so that the on-board RAM and ROM are only selected in the proper
+address ranges, leaving the vacated ranges free for user expansion.

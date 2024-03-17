@@ -2914,10 +2914,6 @@
 		(at 212.09 129.54)
 		(uuid "ba28db75-b8c4-4113-8893-fe4190829b72")
 	)
-	(no_connect
-		(at 105.41 111.76)
-		(uuid "e2ddb23a-bc13-463a-b785-ee8c6ac50afa")
-	)
 	(bus_entry
 		(at 193.04 96.52)
 		(size 2.54 -2.54)
@@ -3196,6 +3192,15 @@
 			(type default)
 		)
 		(uuid "4f904a12-f0bd-441a-bdf9-989ddfb2ae9e")
+	)
+	(bus_entry
+		(at 57.15 111.76)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "520499ca-c2af-44de-9ce2-221b63e874b2")
 	)
 	(bus_entry
 		(at 193.04 30.48)
@@ -4018,6 +4023,16 @@
 		)
 		(uuid "11a79d98-207e-4606-b66e-1ef974d7a6fc")
 	)
+	(wire
+		(pts
+			(xy 59.69 114.3) (xy 73.66 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11c4b928-9733-4729-81de-87c0222d9abe")
+	)
 	(bus
 		(pts
 			(xy 54.61 86.36) (xy 57.15 88.9)
@@ -4217,6 +4232,16 @@
 			(type default)
 		)
 		(uuid "2c3d620b-fad7-455e-8734-e5c09139fa7f")
+	)
+	(bus
+		(pts
+			(xy 57.15 109.22) (xy 57.15 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cb3c2fe-fe29-4876-807b-efa82fa4bbae")
 	)
 	(wire
 		(pts
@@ -6288,6 +6313,16 @@
 		)
 		(uuid "e1fa19a9-be8a-458f-8074-055e47b30bd0")
 	)
+	(wire
+		(pts
+			(xy 105.41 111.76) (xy 87.63 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e526a3d9-d99e-4c47-895e-df9735068082")
+	)
 	(bus
 		(pts
 			(xy 57.15 46.99) (xy 57.15 49.53)
@@ -7490,6 +7525,17 @@
 		)
 		(uuid "b7564541-d668-4192-abbf-d97171badf21")
 	)
+	(label "~{CART}"
+		(at 73.66 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b8b727ca-d3d9-4887-9974-8713b14c7a72")
+	)
 	(label "~{CS}_{7}"
 		(at 73.66 62.23 180)
 		(fields_autoplaced yes)
@@ -8028,6 +8074,17 @@
 			(justify left bottom)
 		)
 		(uuid "ff2274ba-c6c1-4a5b-9582-17e5f673d1b0")
+	)
+	(label "~{CART}"
+		(at 87.63 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffcae189-2004-4cfc-a9e0-9905a3c4c2f1")
 	)
 	(hierarchical_label "{Address_Bus}"
 		(shape tri_state)

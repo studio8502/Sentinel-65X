@@ -20,7 +20,7 @@
 	(bus_alias "IO_Signals"
 		(members "SNES_DATA_{[0..9]}" "SNES_LATCH" "SNES_CLK" "LED_{[0..9]}" "MULTI_BTN"
 			"SDA" "SCL" "MISO" "MOSI" "SCK" "~{SD_SS}" "TXD" "RXD" "~{RTS}" "~{CTS}"
-			"~{FPGA_SS}" "~{FLASH_SS}" "~{SD_WP}" "~{SD_CD}"
+			"~{FPGA_SS}" "~{FLASH_SS}" "~{SD_WP}" "~{SD_CD}" "~{CART}"
 		)
 	)
 	(junction
@@ -58,12 +58,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a67208b-4e80-4a36-bc0f-9ac7a6c866e8")
-	)
-	(junction
-		(at 96.52 69.85)
-		(diameter 0)
-		(color 255 143 55 1)
-		(uuid "333a7c8b-f6cd-458b-bc6e-c8bc54b1b798")
 	)
 	(junction
 		(at 96.52 106.68)
@@ -106,6 +100,12 @@
 		(diameter 0)
 		(color 255 143 55 1)
 		(uuid "c339b34a-f01e-4489-8b07-cabdc97bd637")
+	)
+	(junction
+		(at 96.52 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd011c87-745f-49eb-acf9-95e4b184c3b0")
 	)
 	(junction
 		(at 100.33 83.82)
@@ -326,7 +326,7 @@
 	)
 	(bus
 		(pts
-			(xy 88.9 67.31) (xy 93.98 67.31)
+			(xy 88.9 63.5) (xy 93.98 63.5)
 		)
 		(stroke
 			(width 0)
@@ -510,7 +510,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 69.85) (xy 96.52 87.63)
+			(xy 96.52 66.04) (xy 96.52 87.63)
 		)
 		(stroke
 			(width 0)
@@ -553,7 +553,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 50.8) (xy 96.52 69.85)
+			(xy 96.52 50.8) (xy 96.52 66.04)
 		)
 		(stroke
 			(width 0)
@@ -724,7 +724,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 69.85) (xy 93.98 67.31)
+			(xy 96.52 66.04) (xy 93.98 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1382,8 +1382,8 @@
 		)
 	)
 	(sheet
-		(at 58.42 63.5)
-		(size 30.48 12.7)
+		(at 58.42 59.69)
+		(size 30.48 7.62)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1394,7 +1394,7 @@
 		)
 		(uuid "b4d99e0d-fff9-4843-a20e-7508b441e699")
 		(property "Sheetname" "Power Supply"
-			(at 58.42 62.7884 0)
+			(at 58.42 58.9784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1403,7 +1403,7 @@
 			)
 		)
 		(property "Sheetfile" "Power Supply.kicad_sch"
-			(at 58.42 76.7846 0)
+			(at 58.42 67.8946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1413,7 +1413,7 @@
 			)
 		)
 		(pin "{IO_Signals}" bidirectional
-			(at 88.9 67.31 0)
+			(at 88.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -3810,10 +3810,6 @@
 		(uuid "24b7a2b4-4002-4217-8100-daaece3b32b6")
 	)
 	(no_connect
-		(at 123.19 105.41)
-		(uuid "27417287-21c3-4daa-baeb-af012ea4774c")
-	)
-	(no_connect
 		(at 229.87 129.54)
 		(uuid "30f0b2be-f4ee-424c-9816-6d59baca871d")
 	)
@@ -4143,6 +4139,15 @@
 			(type default)
 		)
 		(uuid "42f3e82e-880d-4a54-821a-754c49436b20")
+	)
+	(bus_entry
+		(at 34.29 175.26)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4737bb54-ccdd-45b2-bb1b-91efef403dd9")
 	)
 	(bus_entry
 		(at 63.5 182.88)
@@ -5623,6 +5628,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 177.8) (xy 50.8 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f2d2351-fc63-4e0b-899c-421c604afa53")
+	)
+	(wire
+		(pts
 			(xy 74.93 55.88) (xy 86.36 55.88)
 		)
 		(stroke
@@ -6030,6 +6045,16 @@
 			(type default)
 		)
 		(uuid "5a9fef60-8611-4f2a-976d-4c997b8a36f7")
+	)
+	(wire
+		(pts
+			(xy 104.14 105.41) (xy 123.19 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae51b5e-d904-44cd-a559-2352b97e6477")
 	)
 	(wire
 		(pts
@@ -6700,6 +6725,16 @@
 			(type default)
 		)
 		(uuid "8bad7428-4968-42b9-b1b7-aafb1955cef5")
+	)
+	(bus
+		(pts
+			(xy 34.29 172.72) (xy 34.29 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bff1aca-cd97-4d5e-9e50-6734eed4b9b9")
 	)
 	(wire
 		(pts
@@ -8966,6 +9001,17 @@
 		)
 		(uuid "690ce75e-bd33-41d6-98d7-8df4959d86ba")
 	)
+	(label "~{CART}"
+		(at 50.8 177.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6df50ddc-721d-4083-abf3-23b70a2f58a8")
+	)
 	(label "BE"
 		(at 80.01 154.94 180)
 		(fields_autoplaced yes)
@@ -10076,6 +10122,17 @@
 			(justify right bottom)
 		)
 		(uuid "f4009699-1f40-4c25-bd6b-5c9be0958878")
+	)
+	(label "~{CART}"
+		(at 104.14 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f46b5ebd-6856-43f9-b5af-7c63fdc69818")
 	)
 	(label "SNES_CLK"
 		(at 151.13 102.87 180)
